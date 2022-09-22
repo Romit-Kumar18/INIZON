@@ -1,4 +1,4 @@
 # School-Project
 This is a project I developed in school with 3 friends.
 It contains code to connect Python with MySQL and create a database for a fictional electronic appliances store called INIZON. The reason that we wrote the code for creating the database and tables in Python instead of directly in MySQL was because it was one of the conditions of the project assigned by our school. Before running the code, you need to make sure that you have MySQL Server installed, as well as started. You also need to make sure that you have installed the needed python libraries via pip3 - tabulate, mysql-connector-python. You also need to modify the files to reflect your credentials. Once done, you can run the "databasecreationcode.py" file directly and it should make the entire database for you. Then, in order to access the program as a customer, you need to run "user code.py". From there, it is just a matter of answering whatever comes up.
-Please note that this is only a practice and I plan to make things that are actually of use in the future
+Please note that this was only a practice project and yes, I plan to make things that are actually of use in the future.
