@@ -1,5 +1,5 @@
 # School-Project
-This is a project I developed in school with 3 friends. It contains code to connect Python with MySQL and create a database for a fictional electronic appliances store called INIZON. The reason that we wrote the code for creating the database and tables in Python instead of directly in MySQL was because it was one of the conditions of the project assigned by our school.
+This is a project I developed in school with 3 friends. It contains code to connect Python with MySQL and create and use a database for a fictional electronic appliances store called INIZON. The reason that we wrote the code for creating the database and tables in Python instead of directly in MySQL was because it was one of the conditions of the project assigned by our school.
 
 # Pre-Requisites 
 
