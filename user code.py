@@ -44,49 +44,33 @@ while complete == 'n':
     print('ALL PRICES ARE IN INR')
     print('\n')
 
-    def inp():
+    complete1='n'
+    while complete1=='n':
         x=int(input("\nKindly refer to the above table and type the Sr.No. of the Appliance you would like to buy: "))
         print("\n")
         if x==1:
             print(table2)
             a=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of Washing Machine you would like to buy: "))
+            complete1='y'
         elif x==2:
             print(table3)
             b=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of Microwave Oven you would like to buy: "))
+            complete1='y'
         elif x==3:
             print(table4)
             ac=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of Air Conditioner you would like to buy: "))
+            complete='y'
         elif x==4:
             print(table5)
             d=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of Chimney you would like to buy: "))
+            complete1='y'
         elif x==5:
             print(table6)
             e=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of Refrigirator you would like to buy: "))
+            complete1='y'
         else:
-            print("\nInvalid input")
-            inp()
+            print("Invalid input\n")
 
-    x=int(input("\nKindly refer to the above table and type the Sr.No. of the Appliance you would like to buy: "))
-    print("\n")
-    if x==1:
-        print(table2)
-        a=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of Washing Machine you would like to buy: "))
-    elif x==2:
-        print(table3)
-        b=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of Oven you would like to buy: "))
-    elif x==3:
-        print(table4)
-        ac=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of AC you would like to buy: "))
-    elif x==4:
-        print(table5)
-        d=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of Chimney you would like to buy: "))
-    elif x==5:
-        print(table6)
-        e=int(input("\nKindly refer to the above table and type the Sr.No. of the Model of Refrigirator you would like to buy: "))
-    else:
-        print("\nInvalid input")
-        inp()
-                
     n=int(input('\nEnter the quantity of product you want: '))
     name=input('\nYour Name: ')
     mobile=input('\nYour Mobile No.: ')
